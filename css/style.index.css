@@ -51,3 +51,35 @@ body {
     width: 100%;
     margin: 0%;
 }
+
+.column2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.GTA{
+    width: 100%;
+}
+
+.hollow {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.borde {
+    border: 1px solid black;
+}
+
+.imagenes {
+    width:500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    height: 550px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
