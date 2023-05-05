@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0%;
+    text-align: center;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
     text-align: center;
     font-size: 40px;
 }
-
 
 
 .descripcion {
@@ -72,7 +72,7 @@ body {
 }
 .video {
     font-size: 20px;
-    padding-top: 3%;
+    padding-top: 10%;
     text-align: center;
    
 }
@@ -82,4 +82,11 @@ body {
 }
 .steve {
     width: 15%;
+}
+
+@media screen  and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+    
 }
