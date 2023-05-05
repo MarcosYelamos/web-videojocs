@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0%;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+}
+
+.row:after {
+    content: "";
+    display:flex;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.cabecera {
+ background-image: url(../img/fondo.jpg);   
+   
+   
+}
+
+.encabezado {
+    background-color: aqua;
+    text-align: center;
+}
+
+.parrafo-arriba {
+    font-family: 'Braah One', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 50px;
+    margin: 0%;
+}
+
+.explicacion {
+    font-size: 20px;
+}
+
+
