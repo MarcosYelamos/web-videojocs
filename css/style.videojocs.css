@@ -28,3 +28,21 @@ body {
     padding-right: 10%;
     padding-top: 3%;
 }
+
+.column2 {
+    width: 50%;
+    float: left;
+}
+
+.juego {
+    width:700px;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    height: 500px;
+}
+
+.imagen {
+    text-align: center;
+}
