@@ -17,32 +17,24 @@ body {
     clear: both;
     flex-wrap: wrap;
     flex-direction: row;
-    
-}
-.cabecera {
- background-image: url(../img/fondo.jpg);   
-   
-   
 }
 
 .encabezado {
-    background-color: aqua;
+    background-image: url(../img/fondo.jpg);
     text-align: center;
+    display: flex;
+    background-size:cover;
+    height:100vh;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-.parrafo-arriba {
-    font-family: 'Braah One', sans-serif;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    font-size: 50px;
-    margin: 0%;
+.explica {
+    color: white;
 }
-
-.explicacion {
-    font-size: 20px;
-}
-
-
 
 .navbar {
     color: white;
