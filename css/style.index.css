@@ -20,20 +20,23 @@ body {
 }
 
 .encabezado {
-    background-image: url(../img/fondo.jpg);
-    text-align: center;
+    margin: 0%;
+    background-image: url(../img/desktop-wallpaper-black-gaming.jpg);
     display: flex;
+    text-align: center;
     background-size:cover;
     height:100vh;
     width: 100%; 
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 
 }
 
 .explica {
-    color: white;
+    color:  white;
+    font-size: 20px;
+    padding: 5%;
 }
 
 .navbar {
