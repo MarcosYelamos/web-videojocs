@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0%;
+    text-align: center;
 }
 
 body {
@@ -82,4 +83,25 @@ body {
 .link {
     text-decoration: none;
     color: black;
+}
+
+.column1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+@media screen  and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+
+    .imagenes {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .explica {
+        font-size: 15px;
+    }
 }
